@@ -1,0 +1,232 @@
+/* carousel start */
+
+.body{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* navbar start */
+
+
+.big-wrapper{
+    width: 100%;
+    background-image: url("../img/25.jpg");
+    background-size: cover;
+}
+
+
+#my-navigation{
+    position: relative;
+    top: 25px;
+    color: #fff;
+    background: none;
+    border: 0;
+
+}
+
+
+#my-navigation a{
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+#my-navigation .navbar-toggle .icon-bar{
+    border-color: #fff;
+    background-color: #fff;
+}
+
+
+/* Banner start */
+
+
+.banner{
+    color: #fff;
+    padding: 60px 0;
+}
+
+.banner h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.banner p{
+    font-size: 13px;
+    line-height: 28px;
+}
+
+
+.banner button{
+    margin-top: 14px;
+}
+
+
+/* bottom start */
+
+
+.my-medium{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.my-medium h2{
+    font-weight: 100;
+}
+
+.my-medium span{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.my-medium p{
+   line-height: 32px;
+}
+
+.my-medium button{
+    margin-top: 18px;
+}
+
+
+.my-medium .medium{
+    margin-left: 50px;
+}
+
+
+.my-medium .last{
+    margin-left: 50px;
+}
+
+
+/* image-line start */
+
+
+.image-line{
+    color: #fff;
+    margin-top: 70px;
+}
+
+
+.image-line .left{}
+
+
+.image-line img{
+    width: 100%;
+}
+
+.image-line .left p{
+    line-height: 33px;
+    margin-top: 20px;
+}
+
+.image-line h2{
+    padding-bottom: 20px;
+}
+
+
+.image-line .right{}
+
+
+.image-line .right p{
+    line-height: 35px;
+    width: 80%;
+    text-align: left;
+    position: relative;
+    top: -12px;
+    left: 10px;
+}
+
+
+/**/
+
+
+.four-image h1{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.image-line .four-image .box1{
+    margin-top: 30px;
+    eight: 100px;
+    rder: 1px solid red;
+}
+
+
+.image-line .four-image .box1 .left img{
+    idth: 100%;
+    
+}
+
+
+.image-line .four-image .box1 .left{
+    ackground-color: rgb(226, 136, 33);
+}
+
+
+
+.image-line .four-image .box1 .right{
+    ackground-color: seagreen;
+}
+
+
+.image-line .four-image .box1 .right p{
+    line-height: 25px;
+    position: relative;
+    top: 1px;
+    left: -15px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media quary start */
+
+
+
+@media only screen and (max-width:1200px){
+    .my-medium .master{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+@media only screen and (max-width:992px){
+    .image-line .right{
+        margin-top: 60px;
+        margin-left: 70px;
+        border-top: 1px solid #dfdfdf;
+    }
+}
+
+
+@media only screen and (max-width:820px){
+    .image-line .right{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 60px;
+        margin-top: 50px;
+        order-top: 1px solid #dfdfdf;
+    }
+
+    
+    .my-medium .master .medium, .my-medium .master .last{
+        margin-left: 0;
+        margin-top: 60px;
+        border-top: 1px solid #dfdfdf;
+    }
+}
